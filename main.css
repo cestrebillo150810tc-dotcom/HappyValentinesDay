@@ -20,6 +20,7 @@ p{
   line-height: .7em;
   background: url(photo.png) no-repeat;
   background-position: center;
+  background-blend-mode: color-dodge;
   background-attachment: fixed;
   text-align: justify;
   background-size: 130vh;
