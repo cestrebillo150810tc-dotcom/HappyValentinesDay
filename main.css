@@ -1,23 +1,28 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+
 }
 
-.Box{
-  width: 100%;
+section{
   height: cover;
-  display: flow-root;
-  align-items: center;
-  justify-content: center;
-  background: black;
+  overflow: hidden;
+  background: #000;
+
 }
 
-.Box p{
-  background: url(photo.png) center/cover;
+p{
+  position: relative;
+  font-size: 1.5em;
+  letter-spacing: -.05em;
+  line-height: .7em;
+  background: url(photo.png) no-repeat;
+  background-position: center;
   background-attachment: fixed;
-  background-size: cover;
-  text-align: center;
-  font-size: 13px;
+  text-align: justify;
+  background-size: 130vh;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: rgb(255,255,255,.02);
+  -webkit-text-fill-color: rgb(255,255,255,0);
 }
